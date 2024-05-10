@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <com.example.doottest.ScrollingPagerIndicator
+        android:id="@+id/recycler_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recycler"
+        app:spi_dotColor="@color/black"
+        app:spi_dotSelectedColor="@color/teal_200"
+        app:spi_dotSize="8dp"
+        app:spi_dotSelectedSize="8dp"
+        app:spi_orientation="horizontal"
+        app:spi_visibleDotCount="3"
+        app:spi_dotMinimumSize="8dp"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
