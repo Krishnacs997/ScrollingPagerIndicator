@@ -18,7 +18,7 @@ import kotlin.math.abs
 import kotlin.math.min
 
 /**
- * @author Nikita Olifer
+ * @author Krishna chaudhary
  */
 class ScrollingPagerIndicator @JvmOverloads constructor(context: Context, attrs: AttributeSet? = null,
     defStyleAttr: Int = R.attr.scrollingPagerIndicatorStyle) :
@@ -549,6 +549,7 @@ class ScrollingPagerIndicator @JvmOverloads constructor(context: Context, attrs:
                 }
 
                 paint.color = calculateDotColor(scale)
+
                 val dotDrawable = if (i == firstVisibleDotPos) {
                     firstDotDrawable
                 } else if (i == lastVisibleDotPos) {

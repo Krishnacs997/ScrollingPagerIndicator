@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView.AdapterDataObserver
 import com.example.doottest.ScrollingPagerIndicator.PagerAttacher
 
 /**
- * @author Nikita Olifer
+ * @author Krishna Chaudhary
  * Attacher for RecyclerView.
  */
 class RecyclerViewAttacher : PagerAttacher<RecyclerView?> {
