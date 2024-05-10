@@ -574,6 +574,7 @@ class ScrollingPagerIndicator @JvmOverloads constructor(context: Context, attrs:
                         )
                     }
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+
                         dotDrawable.setTint(paint.color)
 
                     }
